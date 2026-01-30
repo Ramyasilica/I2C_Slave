@@ -47,7 +47,7 @@ module i2c_slave (
     // START detection (SDA falling while SCL high)
     wire start_cond = (scl === 1'b1 && sda === 1'b0);
 
-    // Main FSM - sample on posedge SCL
+    // Main FSM
     always @(posedge scl or negedge reset_n) begin
         if (!reset_n) begin
             state       <= IDLE;
