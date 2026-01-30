@@ -35,7 +35,7 @@ module tb_i2c_slave;
     assign scl = scl_drv;
     assign sda = (sda_drv) ? 1'b0 : 1'bz;
 
-    // Pull-up for SDA (MANDATORY)
+    // Pull-up for SDA
     pullup(sda);
 
     // DUT
@@ -47,7 +47,6 @@ module tb_i2c_slave;
         .data_out(data_out)
     );
 
-    // Clock
     always #5 scl_drv = ~scl_drv;
 
     initial begin
