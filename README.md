@@ -86,6 +86,8 @@ From the simulation waveform:
 
 ## 🖼️ Output Waveform
 
+![image alt](https://github.com/Ramyasilica/I2C_Slave/blob/3a0f91846b2267c32e90cc62739f063d5bcb8b0f/I2C_Slave.jpg)
+
 🧾 Conclusion
 
 This repository demonstrates a **working I2C Slave Write (Slave Receiver) implementation** using **Verilog HDL**.
