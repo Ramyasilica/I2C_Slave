@@ -1,8 +1,8 @@
 # I2C_Slave 
 
-# 🌍 Welcome World!
+🌍 Welcome World!
 
-Welcome to my **I2C Slave project** repository 🎉
+Welcome to my eighth GitHub repository 🎉
 
 In this repository, I have implemented an **I2C Slave Write (Slave Receiver)** module using **Verilog HDL**, and its functionality is verified through **simulation waveform analysis**.
 
@@ -95,7 +95,8 @@ The simulation results verify correct detection of the slave address and success
 
 ### 🙌 Thank you for visiting!
 
-This project is part of my **protocol-based RTL design journey**, and more enhancements and integrations will be added in the future 🚀
+This is my eighth GitHub repository, and it is part of my protocol-based RTL design journey 🚀
+More RTL-protocol projects will be added in the future.
 
 
 
